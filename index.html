@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="color-scheme" content="dark light"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сложно сосредоточиться</title>
+    <meta name="color-scheme" content="dark light">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/globals.css">
     <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/dark.css">
-    <link rel="stylesheet" href="./styles/light.css">
-    <link rel="stylesheet" href="./styles/globals.css">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="icon" href="images/favicon.ico" sizes="any">
-    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./styles/light.css"> 
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.svg">
+    <link rel="apple-touch-icon" href="/images/mobile-icon.png">
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
@@ -49,16 +50,16 @@
         no 
         focus
       </h1>
-        <p class=title__decor>Что делать, когда не можешь делать ничего<br>
+        <p class="title__decor additional__title">Что делать, когда не можешь делать ничего<br>
           Или почему нам так сложно сконцентрироваться, особенно когда очень надо
         </p>
     </header>
     <main class="main">
-      <section class="section">
+      <section class="section section__focus-hard">
         <h2 class="section__title">
           Почему сосредоточиться так сложно
         </h2>
-        <aricle class="section__article">
+        <article class="section__article">
           <h3 class="title__decor">
             Многозадачность
           </h3>
@@ -79,14 +80,14 @@
             Например, смотрим лайки в соцсетях. В это время и выделяется дофамин — и мы чувствуем удовольствие. 
             Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь.
           </span>
-        </aricle>
+        </article>
       </section>
-      <section class="section">
-        <h2 class="section__title">
+      <section class="section section__focus-low">
+        <h2 class="section__title title__focus-low">
           Что снижает концентрацию внимания?
         </h2>
-         <article class="section__article">
-           <h3 class="title__decor">
+         <article class="section__article мultitasking__article">
+           <h3 class="title__decor multitasking">
             Многозадачность
            </h3>
            <span class="article__text">
@@ -97,7 +98,9 @@
             Но быть собранными всё время — невозможно. Концентрация — мышца, 
             и она может не выдержать, если не давать ей отдохнуть.
            </span>
-           <h3 class="title__decor">
+         </article>
+         <article>
+           <h3 class="title__decor food">
             Еда
            </h3>
            <span class="article__text">
@@ -108,7 +111,9 @@
             действие «быстрых углеводов» заканчивается, мы чувствуем усталость 
             и сонливость. И хотим ещё больше быстрых углеводов.
            </span>
-           <h3 class="title__decor">
+          </article>
+          <article>
+           <h3 class="title__decor mobile">
             Гаджеты
            </h3>
            <span class="article__text">
@@ -120,16 +125,16 @@
             Вот и получается, что чем больше времени мы проводим в гаджетах, 
             тем больше времени затем нужно, чтобы вернуться к работе.
            </span>
-         </article>
+          </article>
       </section>
-      <section class="section">
+      <section class="section section__focus-best">
         <h2 class="section__title">Как концентрироваться лучше, 
           чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
-         <p class="title__decor title__margin">
-          5 простых (на самом деле не очень) советов
-         </p>
          <article class="section__article">
+          <p class="title__decor title__margin">
+            5 простых (на самом деле не очень) советов
+           </p>
           <h3 class="title__decor">
             Представьте небо и облака
           </h3>
@@ -187,49 +192,46 @@
           </span>
          </article>
       </section>
+      <div>
+      <h3 class="title__decor title__gallery-list">А можно в картинках?</h3>
       <section class="gallery">
-       <h3 class="title__decor title__gallery-list">А можно в картинках?</h3>
         <figure class="gallery__item">
           <img
             src="./images/sunset.png"
             loading="lazy"
             alt="Розовый закат"
-            class="gallery__images"
-          />
+            class="gallery__images sunset">
         </figure>
         <figure class="gallery__item">
           <img
             src="./images/ice-cream.png"
             loading="lazy"
             alt="Мороженое в шариках"
-            class="gallery__images"
-          />
+            class="gallery__images ice-cream">
           </figure>
         <figure class="gallery__item">
           <img
             src="./images/tape.png"
             loading="lazy"
             alt="Розовая аудиокассета"
-            class="gallery__images"
-          />
+            class="gallery__images tape">
         </figure>
         <figure class="gallery__item">
           <img
             src="./images/books.png"
             loading="lazy"
             alt="Розовые книги собранные в башню"
-            class="gallery__images"
-          />
+            class="gallery__images books">
         </figure>
         <figure class="gallery__item">
           <img
             src="./images/street.png"
             loading="lazy"
             alt="Розовая улица"
-            class="gallery__images"
-          />
+            class="gallery__images street">
         </figure>
       </section>
+     </div>
     </main>
     <footer class="footer decorated-footer">
       <span class="title__footer">
