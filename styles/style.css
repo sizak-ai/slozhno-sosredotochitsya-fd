@@ -87,7 +87,7 @@
   color: var(--color-button-text);
   font-size: 18px;
   text-transform: lowercase;
-  text-align: center;;
+  text-align: center;
   line-height: 18px;
   background-color: transparent;
   border: none;
@@ -255,35 +255,35 @@
 
 @media (width >= 768px) {
 
-  .header__title  {
+  .header__title {
     margin-inline-start: -18px;
-  }
+ }
 
   .decorated-zone {
     padding: 20px;
     margin-block-end: 40px;
-  }
+ }
 
   .decorated-zone::after {
     top: 20px;
     right: 20px;
-  }
+ }
   
   .decorated-zone::before {
     bottom: 20px;
     left: 20px;
-  }
+ }
 
   .decorated__text-zone {
     right: 30px;
     top: 20px;
-  }
+ }
 
   .additional__title {
     inline-size: 364px;
     justify-self: end;
     align-self: center;
-  }
+ }
 
   .main {
     display: flex;
