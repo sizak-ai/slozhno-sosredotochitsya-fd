@@ -290,6 +290,7 @@
     flex-direction: column;
     gap: 80px;
     padding: 20px;
+    padding-block-end: 45px;
   }
 
   .section__title {
@@ -315,20 +316,8 @@
     gap: 20px;
   }
 
-  .title__focus-best {
-    margin-block-start: 0;
-  }
-
   .article__focus-best {
     grid-column: 2 / 3;
-    display: flex;
-    flex-direction: column;
-    gap: 19px;
-  }
-
-  .text__focus-best {
-    padding-block-start: 0px;
-    margin-block-start: -8px;
   }
 
   .title__margin {

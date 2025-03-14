@@ -1,4 +1,4 @@
-.page.theme-dark {
+:root.theme-dark {
   --bg-color: #000028;
   --bg-img: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex mono', sans-serif;
