@@ -268,7 +268,7 @@
     flex-direction: column;
     gap: 80px;
     padding: 20px;
-    padding-block: 60px 10px;
+    padding-block: 60px 25px;
   }
 
   .section__title {
@@ -378,7 +378,7 @@
     gap: 10px;
   }
 
-  .мultitasking__article {
+  .multitasking__article {
     grid-column: 1 / 2;
   }
 
