@@ -21,7 +21,6 @@
 
 .decorated-zone {
   padding: 10px;
-  margin-block-end: 30px;
 }
 
 .decorated__text-zone {
@@ -97,7 +96,7 @@
 
 .header__theme-menu-button:hover {
   cursor: pointer;
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid var(--color-hover-button);
 }
 
 .header__theme-menu-button:focus {
@@ -137,6 +136,7 @@
   display: grid;
   gap: 50px;
   padding: 10px;
+  padding-block: 40px 0px;
 }
 
 .section {
@@ -214,33 +214,12 @@
   height: 100vh;
   min-height: 668px;
   position: relative;
+  margin-block-start: 35px;
 }
 
 .decorated-footer {
   padding: 10px;
   margin-block-start: 20px;
-}
-
-.decorated-footer::before {
-  content: "";
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
-  border-left: 1px solid var(--color-button-text);
-  border-bottom: 1px solid var(--color-button-text);
-  left: 10px;
-  bottom: 5px;
-}
-
-.decorated-footer::after {
-  content: "";
-  inline-size: 25px;
-  block-size: 25px;
-  position: absolute;
-  border-right: 1px solid var(--color-button-text);
-  border-top: 1px solid var(--color-button-text);
-  right: 10px;
-  top: 15px;
 }
 
 .title__footer {
@@ -261,7 +240,6 @@
 
   .decorated-zone {
     padding: 20px;
-    margin-block-end: 40px;
  }
 
   .decorated-zone::after {
@@ -290,7 +268,7 @@
     flex-direction: column;
     gap: 80px;
     padding: 20px;
-    padding-block-end: 45px;
+    padding-block: 60px 10px;
   }
 
   .section__title {
@@ -375,22 +353,6 @@
 
   .title__footer {
     justify-self: center;
-  }
-
-  .decorated-footer {
-    margin: 0px;
-    margin-block-start: 25px;
-    padding: 10px;
-  }
-
-  .decorated-footer::before {
-    left: 20px;
-    bottom: 20px;
-  }
-  
-  .decorated-footer::after {
-    right: 20px;
-    top: 20px;
   }
 }
 

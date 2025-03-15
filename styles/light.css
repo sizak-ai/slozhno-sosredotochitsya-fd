@@ -1,7 +1,6 @@
 :root.theme-light {
   --bg-color: #fff1f7;
   --bg-img: url(../images/cover-image-light.png);
-  --main-font: 'IBM Plex mono', sans-serif;
   --text-color: #353430;
   --accent-color: #ff8dcb;
   --title-color: #FFC2E6;
@@ -15,7 +14,6 @@
   :root {
     --bg-color: #fff1f7;
     --bg-img: url(../images/cover-image-light.png);
-    --main-font: 'IBM Plex mono', sans-serif;
     --text-color: #353430;
     --accent-color: #ff8dcb;
     --title-color: #FFC2E6;
